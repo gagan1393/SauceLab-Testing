@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Sauce Lab Test automation regression suite]" parallel="tests">
+  <test thread-count="3" verbose="3" name="Sauce Test - Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="85.0"/>
+    <parameter name="platform" value="macOS 10.15"/>
+    <classes>
+      <class name="cloudTests.SauceTest">
+        <methods>
+          <include name="TitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- cloudTests.SauceTest -->
+    </classes>
+  </test> <!-- Sauce Test - Chrome(failed) -->
+  <test thread-count="3" verbose="3" name="Sauce Test - FF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="79.0"/>
+    <parameter name="platform" value="windows 10"/>
+    <classes>
+      <class name="cloudTests.SauceTest">
+        <methods>
+          <include name="TitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- cloudTests.SauceTest -->
+    </classes>
+  </test> <!-- Sauce Test - FF(failed) -->
+</suite> <!-- Failed suite [Sauce Lab Test automation regression suite] -->

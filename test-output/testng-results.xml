@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sauce Lab Test automation regression suite" duration-ms="84146" started-at="2020-10-31T08:32:47Z" finished-at="2020-10-31T08:34:11Z">
+    <groups>
+    </groups>
+    <test name="Sauce Test - Chrome" duration-ms="62639" started-at="2020-10-31T08:32:47Z" finished-at="2020-10-31T08:33:50Z">
+      <class name="cloudTests.SauceTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@78aab498]" name="setUp" is-config="true" duration-ms="10249" started-at="2020-10-31T08:32:47Z" finished-at="2020-10-31T08:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.TitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TitleTest()[pri:1, instance:cloudTests.SauceTest@78aab498]" name="TitleTest" duration-ms="1662" started-at="2020-10-31T08:32:58Z" finished-at="2020-10-31T08:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@78aab498]" name="tearDown" is-config="true" duration-ms="493" started-at="2020-10-31T08:32:59Z" finished-at="2020-10-31T08:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@78aab498]" name="setUp" is-config="true" duration-ms="8565" started-at="2020-10-31T08:33:00Z" finished-at="2020-10-31T08:33:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.checkInventoryItemTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkInventoryItemTest()[pri:2, instance:cloudTests.SauceTest@78aab498]" name="checkInventoryItemTest" duration-ms="5457" started-at="2020-10-31T08:33:08Z" finished-at="2020-10-31T08:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInventoryItemTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@78aab498]" name="tearDown" is-config="true" duration-ms="588" started-at="2020-10-31T08:33:14Z" finished-at="2020-10-31T08:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@78aab498]" name="setUp" is-config="true" duration-ms="10059" started-at="2020-10-31T08:33:14Z" finished-at="2020-10-31T08:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.checkAddToCartButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkAddToCartButtonTest()[pri:3, instance:cloudTests.SauceTest@78aab498]" name="checkAddToCartButtonTest" duration-ms="6251" started-at="2020-10-31T08:33:25Z" finished-at="2020-10-31T08:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddToCartButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@78aab498]" name="tearDown" is-config="true" duration-ms="545" started-at="2020-10-31T08:33:31Z" finished-at="2020-10-31T08:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@78aab498]" name="setUp" is-config="true" duration-ms="9545" started-at="2020-10-31T08:33:31Z" finished-at="2020-10-31T08:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.LogoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogoutTest()[pri:4, instance:cloudTests.SauceTest@78aab498]" name="LogoutTest" duration-ms="8493" started-at="2020-10-31T08:33:41Z" finished-at="2020-10-31T08:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@78aab498]" name="tearDown" is-config="true" duration-ms="499" started-at="2020-10-31T08:33:49Z" finished-at="2020-10-31T08:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cloudTests.SauceTest -->
+    </test> <!-- Sauce Test - Chrome -->
+    <test name="Sauce Test - FF" duration-ms="84146" started-at="2020-10-31T08:32:47Z" finished-at="2020-10-31T08:34:11Z">
+      <class name="cloudTests.SauceTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="setUp" is-config="true" duration-ms="17634" started-at="2020-10-31T08:32:47Z" finished-at="2020-10-31T08:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[79.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.TitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TitleTest()[pri:1, instance:cloudTests.SauceTest@4278a03f]" name="TitleTest" duration-ms="1120" started-at="2020-10-31T08:33:05Z" finished-at="2020-10-31T08:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="tearDown" is-config="true" duration-ms="354" started-at="2020-10-31T08:33:06Z" finished-at="2020-10-31T08:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="setUp" is-config="true" duration-ms="16428" started-at="2020-10-31T08:33:06Z" finished-at="2020-10-31T08:33:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[79.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.checkInventoryItemTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkInventoryItemTest()[pri:2, instance:cloudTests.SauceTest@4278a03f]" name="checkInventoryItemTest" duration-ms="4591" started-at="2020-10-31T08:33:23Z" finished-at="2020-10-31T08:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInventoryItemTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="tearDown" is-config="true" duration-ms="393" started-at="2020-10-31T08:33:28Z" finished-at="2020-10-31T08:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="setUp" is-config="true" duration-ms="16688" started-at="2020-10-31T08:33:28Z" finished-at="2020-10-31T08:33:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[79.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.checkAddToCartButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkAddToCartButtonTest()[pri:3, instance:cloudTests.SauceTest@4278a03f]" name="checkAddToCartButtonTest" duration-ms="5532" started-at="2020-10-31T08:33:45Z" finished-at="2020-10-31T08:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddToCartButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="tearDown" is-config="true" duration-ms="469" started-at="2020-10-31T08:33:50Z" finished-at="2020-10-31T08:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="setUp" is-config="true" duration-ms="13705" started-at="2020-10-31T08:33:51Z" finished-at="2020-10-31T08:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[79.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void cloudTests.SauceTest.LogoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogoutTest()[pri:4, instance:cloudTests.SauceTest@4278a03f]" name="LogoutTest" duration-ms="6809" started-at="2020-10-31T08:34:04Z" finished-at="2020-10-31T08:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cloudTests.SauceTest@4278a03f]" name="tearDown" is-config="true" duration-ms="345" started-at="2020-10-31T08:34:11Z" finished-at="2020-10-31T08:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cloudTests.SauceTest -->
+    </test> <!-- Sauce Test - FF -->
+  </suite> <!-- Sauce Lab Test automation regression suite -->
+</testng-results>
